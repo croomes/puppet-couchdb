@@ -36,6 +36,7 @@ authentication_redirect = /_utils/session.html
 require_valid_user = false
 timeout = 600 ; number of seconds before automatic logout
 auth_cache_size = 50 ; size is number of cache entries
+secret = <%= @secret %>
 
 [query_servers]
 javascript = <%= @javascript %>
